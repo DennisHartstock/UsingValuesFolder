@@ -13,4 +13,13 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="BackgroundStyle">
+        <item name="background">@android:color/holo_orange_light</item>
+    </style>
+
+    <style name="MyStyle" parent="BackgroundStyle">
+        <item name="android:textSize">48sp</item>
+        <item name="android:textColor">@color/my_color</item>
+    </style>
 </resources>
